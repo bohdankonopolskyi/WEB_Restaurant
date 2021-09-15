@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Звіт до лабораторних робіт з Інтернет-технологій та проектування WEB-застосувань</title>
+    <script src="./zvit.js" defer></script>
+    <style>
+      main > div:nth-child(n + 2),
+      #emptySection {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Звіти з лабораторних робіт<br>з дисципліни "Розроблення WEB-застосувань"</h1>
+      <h2>Бригада №2, студенти групи: Конопольський Богдан, Поліщук Дарія, Пушкарьов Максим, Шинкаренко Денис</h2>
+
+      <div>
+        <button type="button" onclick="showLab(1)">
+          <span>Лабораторна робота №1</span>
+        </button>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><button onclick="showSection(this)" class="description">Опис предметного середовища</button></li>
+        <li><button onclick="showSection(this)" class="meta">Тема, Мета та Посилання лаби №1</button></li>
+        <li><button onclick="showSection(this)" class="code">Структура документа</button></li>
+        <li><button onclick="showSection(this)" class="sumup">Висновки</button></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <div id="emptyLab">Оберіть лабораторну роботу</div>
+      <div id="emptySection">Оберіть розділ</div>
+
+      <div id="labs">
+        <div id="lab1">
+          <div class="description">Опис</div>
+          <div class="meta">Мета</div>
+          <div class="code">Код</div>
+          <div class="sumup">Підсумок</div>
+        </div>
+    </main>
+  </body>
+</html>
