@@ -21,27 +21,55 @@
         </button>
       </div>
     </header>
-
-    <nav>
-      <ul>
-        <li><button onclick="showSection(this)" class="description">Опис предметного середовища</button></li>
-        <li><button onclick="showSection(this)" class="meta">Тема, Мета та Посилання лаби №1</button></li>
-        <li><button onclick="showSection(this)" class="code">Структура документа</button></li>
-        <li><button onclick="showSection(this)" class="sumup">Висновки</button></li>
-      </ul>
-    </nav>
     
     <main>
-      <div id="emptyLab">Оберіть лабораторну роботу</div>
-      <div id="emptySection">Оберіть розділ</div>
+      <div id="lab1">
+        <nav>
+          <ul>
+            <li><button onclick="showSection(this)" class="meta">Тема, Мета та Посилання</button></li>
+            <li><button onclick="showSection(this)" class="description">Опис предметного середовища</button></li>
+            <li><button onclick="showSection(this)" class="code">Структура документа</button></li>
+            <li><button onclick="showSection(this)" class="resume">Висновки</button></li>
+          </ul>
+        </nav>
 
-      <div id="labs">
-        <div id="lab1">
-          <div class="description">Опис</div>
-          <div class="meta">Мета</div>
-          <div class="code">Код</div>
-          <div class="sumup">Підсумок</div>
+        <section>
+          <div class="meta">
+            <h1>Тема, Мета та Посилання</h1>
+          </div>
+          <div class="description">
+            <h1>Опис предметного середовища</h1>
+          </div>
+          <div class="code">
+            <h1>Структура документа</h1>
+          </div>
+          <div class="resume">
+            <h1>Висновок</h1>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <div id="emptyLab">Оберіть лабораторну роботу</div>
+        <div id="emptySection">Оберіть розділ</div>
+  
+        <div id="labs">
+          <div id="lab1">
+            <div class="meta">
+              <h1>Тема, Мета та Посилання</h1>
+            </div>
+            <div class="description">
+              <h1>Опис предметного середовища</h1>
+            </div>
+            <div class="code">
+              <h1>Структура документа</h1>
+            </div>
+            <div class="resume">
+              <h1>Висновок</h1>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
   </body>
 </html>

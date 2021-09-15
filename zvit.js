@@ -4,7 +4,7 @@ function hideLabs() {
   for (let c of classes) {
     let el = document.querySelectorAll(`div.${c}`);
     for (let i of el) {
-      i.style.visibility = 'hidden';
+      i.style.display = 'none';
     }
   }
 }
@@ -30,6 +30,6 @@ function showSection(section) {
   hideLabs()
 
   // відображаємо лише вибрану
-  document.querySelector(`${labId} > .${section.className}`).style.visibility = 'visible';
+  document.querySelector(`${labId} > .${section.className}`).style.display = 'block';
 }
 
