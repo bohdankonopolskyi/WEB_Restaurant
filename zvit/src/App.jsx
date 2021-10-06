@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Lab1 from './labs/Lab1';
+import Lab2 from './labs/Lab2';
 
 export default function App() {
   const [lab, setLab] = useState(null);
@@ -8,6 +9,8 @@ export default function App() {
     switch (lab) {
       case 1:
         return <Lab1 />;
+      case 2:
+        return <Lab2 />
       default:
         return <div>Оберіть лабораторну роботу</div>
     }
@@ -21,6 +24,9 @@ export default function App() {
       <div>
         <button type="button" onClick={() => setLab(1)}>
           <span>Лабораторна робота №1</span>
+        </button>
+        <button type="button" onClick={() => setLab(2)}>
+          <span>Лабораторна робота №2</span>
         </button>
       </div>
 
