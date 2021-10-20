@@ -91,7 +91,7 @@ export default function Lab1() {
   }
 
   return (
-    <>
+    <div style={{display: "flex", flexDirection: "row"}}>
       <nav>
         <ul>
           <li><button onClick={() => setSection("meta")}>Тема, Мета та Посилання</button></li>
@@ -115,6 +115,6 @@ export default function Lab1() {
       </nav>
 
       {getSection()}
-    </>
+    </div>
   )
 }
