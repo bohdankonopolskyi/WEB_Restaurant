@@ -20,8 +20,8 @@ export default function Lab2() {
       case "overview":
         return (
           <div className="overview">
-            <img src="assets/screen1.png" alt="screenshot 1" />
-            <img src="assets/screen2.png" alt="screenshot 2" />
+            <img src="assets/Lab3/screen2.png" alt="screenshot 2" />
+            <img src="assets/Lab3/screen1.png" alt="screenshot 1" />
           </div>
         )
         case "markup":
