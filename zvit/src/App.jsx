@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import Lab1 from './labs/Lab1';
 import Lab2 from './labs/Lab2';
+import Lab3 from './labs/Lab3';
 
 export default function App() {
   const [lab, setLab] = useState(null);
@@ -13,6 +14,8 @@ export default function App() {
         return <Lab1 />;
       case 2:
         return <Lab2 />
+      case 3:
+        return <Lab3 />
       default:
         return <div>Оберіть лабораторну роботу</div>
     }
@@ -33,6 +36,9 @@ export default function App() {
         </button>
         <button type="button" onClick={() => setLab(2)}>
           <span>Лабораторна робота №2</span>
+        </button>
+        <button type="button" onClick={() => setLab(3)}>
+          <span>Лабораторна робота №3</span>
         </button>
       </div>
 
