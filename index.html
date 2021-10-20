@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/20ddc12241.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script>const load = (el, path) => $(el).load(path);</script>
+  </head>
+  <body>
+    <h1>Звіти з лабораторних робіт<br/>з дисципліни "Розроблення WEB-застосувань"</h1>
+    <h2>Бригада №2, студенти групи: Конопольський Богдан, Поліщук Дарія, Пушкарьов Максим, Шинкаренко Денис</h2>
+    <a href="https://github.com/bohdankonopolskyi/WEB_Restaurant" style="font-size: '20px'">
+      <i class="fab fa-github"></i>
+      <span>Github</span>
+    </a>
+
+    <div>
+      <button onClick="load('#lab_div', 'zvit-new/lab1/index-lab1.html')">Лабораторна робота №1</button>
+      <button onClick="load('#lab_div', 'zvit-new/lab2/index-lab2.html')">Лабораторна робота №2</button>
+      <button onClick="load('#lab_div', 'zvit-new/lab3/index-lab3.html')">Лабораторна робота №3</button>
+    </div>
+
+    <div id="lab_div">
+      <span>Оберіть лабораторну роботу</span>
+    </div>
+  </body>
+</html>
