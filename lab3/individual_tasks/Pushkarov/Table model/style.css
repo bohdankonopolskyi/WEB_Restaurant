@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+}
+
+.footer-header {
+  height: 10vh;
+  background-color: royalblue;
+  color: white;
+}
