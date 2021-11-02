@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #root {
+      background-color: tan;
+      width: fit-content;
+      margin: 2rem;
+      padding: 0.75rem;
+    }
+
+    #popup {
+      background-color: aqua;
+      border: 3px solid #000;
+      width: fit-content;
+      padding: 1.5rem;
+      margin-left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    .hide {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" onmouseover="show()" onmouseout="hide()">Hover me!</div>
+  <div id="popup" class="hide">Popup!</div>
+
+  <script>
+    function show() {
+      popup.classList.remove('hide');
+    }
+    function hide() {
+      popup.classList.add('hide');
+    }
+  </script>
+</body>
+
+</html>
+<!--
+<div id="obj"></div>
+<div id="abc">Text</div>
+
+obj.onHover = function() {
+  abc.style.display="visible";
+}
+
+obj.onBlur = function () {}
+-->
