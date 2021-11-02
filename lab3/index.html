@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="jquery.prettySocial.min.js"></script>
     <title>Resturant</title>
 </head>
 <body>
@@ -12,7 +15,7 @@
         <div class="left_column">
             <header>
                 <div id="logo_container">
-                   <img src="img/food-restaurant-logo.png" alt="Logo">
+                   <img id="logo" src="img/food-restaurant-logo.png" alt="Logo">
                 </div>
                 <nav id="header_navigation">
                     <div id="search_block"></div>
@@ -52,6 +55,23 @@
                             <a class="category" href="">Fastfood</a>
                         </li>
                     </ul>
+                    <div class="social-container">
+                        <div class="links">
+                            <a href="#" data-type="twitter" data-url="http://sonnyt.com/prettySocial" data-description="Custom share buttons for Pinterest, Twitter, Facebook and Google Plus." data-via="sonnyt" class="prettySocial fa fa-twitter"></a>
+                
+                            <a href="#" data-type="facebook" data-url="http://sonnyt.com/prettySocial" data-title="prettySocial - custom social share buttons." data-description="Custom share buttons for Pinterest, Twitter, Facebook and Google Plus." data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-facebook"></a>
+                
+                            <a href="#" data-type="googleplus" data-url="http://sonnyt.com/prettySocial" data-description="Custom share buttons for Pinterest, Twitter, Facebook and Google Plus." class="prettySocial fa fa-google-plus"></a>
+                            
+                            <a href="#" data-type="pinterest" data-url="http://sonnyt.com/prettySocial" data-description="Custom share buttons for Pinterest, Twitter, Facebook and Google Plus." data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-pinterest"></a>
+                
+                            <a href="#" data-type="linkedin" data-url="http://sonnyt.com/prettySocial" data-title="prettySocial - custom social share buttons." data-description="Custom share buttons for Pinterest, Twitter, Facebook and Google Plus." data-via="sonnyt" data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-linkedin"></a>
+                        </div>
+                
+                        <script type="text/javascript" class="source">
+                            $('.prettySocial').prettySocial();
+                        </script>
+                    </div>
                 </div>
             </header>
         </div>

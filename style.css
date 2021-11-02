@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #555555;
+}
+h1, h2 {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ button {
+
+    border-left: 1px solid grey; 
+    border-right: 1px solid grey;
+    color: whitesmoke;
+    background-color: #555555;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+a, i , span {
+
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    size: 24px;
+}

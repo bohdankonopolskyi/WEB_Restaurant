@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task_name {
+    display: block;
+    background-color: #404040;
+    padding: 10px;
+    margin: 10px;
+    color: floralwhite;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#accordion {
+    display: block;
+    border: 2px solid gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#accordion h3 {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #404040;
+    color: floralwhite;
+    font-size: 20px;
+}
+#accordion div {
+    
+    color: #333333;
+}
+#datepickerBlock {
+    border: 2px solid gray;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 300px;
+}
+#datepickerBlock input {
+    margin: 10px;
+}
+.slider_container {
+    height: 100px;
+}
+#tabs {
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid gray;
+}
+#tabsList li{
+    display: inline;
+    padding: 20px 30px;
+    background-color: cornflowerblue;
+}
+
+
+#galleryList a {
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+}
+#tabs div {
+    margin-top: 30px;
+}
+label {
+    display: inline-block;
+    width: 5em;
+}  
+#galleryList li {
+    padding: 20px 30px;
+    margin: 10px;
+    background-color: aliceblue;
+    color: gray;
+    border-radius: 20px;
+    width: 40%
+}
+
+#tabsList a {
+    text-decoration: none;
+    color: honeydew;
+}
