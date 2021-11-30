@@ -45,3 +45,19 @@ a, i , span {
 ul ul {
     margin-left: 1rem;
 }
+.photo_block {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.img_block {
+    width: 170px;
+    height: 210px;
+    border: 1px solid rgb(71, 69, 69);
+    border-radius: 5px;
+}
+li>button {
+    width: 400px;
+    margin-top: 20px;
+  padding: 15px 0;
+}

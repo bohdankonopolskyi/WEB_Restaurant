@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    color: #fffae6;
+}
+.fields_block {
+    background-color: #608000;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div.fields_block h2 {
+margin: 20px auto;
+margin-bottom: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+div.fields_block div {
+    display: block;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 20px;
+    border: 1px solid rgb(68, 67, 67);
+    border-radius: 30px;
+    box-shadow: 2px 5px #333333;
+}
+input[name="arrive_field"], input[name="depature_field"] {
+    width: 280px;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 20px;
+}
+div.submit_block {
+    background-color: #608000;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"] {
+    /* display: block; */
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 1px solid #333333;
+    min-width: 300px;
+    height: 40px;
+    background-color: #333333;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div.data {
+    background-color: #608000;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.cities_block {
+    background-color: #608000;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+div.cities_block div {
+    display: block;
+    min-width: 400px;
+    min-height: 50px;
+    border: 1px solid rgb(77, 76, 76);
+    box-shadow: 2px -5px #333333;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 0;
+    font-size: 30px;
+}
